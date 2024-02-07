@@ -1,16 +1,16 @@
-Отчёт по практической работе:
-После создания данный репозиторий был склонировал на пк с помощью команды - git clone https://github.com/theory-universe/home_practice_git.git.
-Следующим шагом было создание директории с окружением для расчётного скрипта .py и добавление её на основную ветку слежения main - git add calculating_the_triangle.
-Был создан коммит для этого шага - git commit -m "Add file .py 'Calculation the triangle'". Далее с помощью команды git push данная директория была добавлена на удалённый репозиторий.
+Отчёт по практической работе:  
+После создания данный репозиторий был склонировал на пк с помощью команды - git clone https://github.com/theory-universe/home_practice_git.git.  
+Следующим шагом было создание директории с окружением для расчётного скрипта .py и добавление её на основную ветку слежения main - git add calculating_the_triangle.  
+Был создан коммит для этого шага - git commit -m "Add file .py 'Calculation the triangle'". Далее с помощью команды git push данная директория была добавлена на удалённый репозиторий.  
 
-Сущность расчётного файла:
-  Вычисление площади треугольника в случае возможности его сущестования с вводными длинами сторон
-Скрипт:
+Сущность расчётного файла:  
+  Вычисление площади треугольника в случае возможности его сущестования с вводными длинами сторон  
+Скрипт:  
 import math
-a=(float(input('Введите сторону a: ')))
-b=(float(input('Введите сторону b: ')))
-c=(float(input('Введите сторону c: ')))
-if a<b+c and b<a+c and c<a+b:
+a=(float(input('Введите сторону a: ')))  
+b=(float(input('Введите сторону b: ')))  
+c=(float(input('Введите сторону c: ')))  
+if a<b+c and b<a+c and c<a+b:  
   corner_between_sides=math.degrees(math.acos((b**2+c**2-a**2)/(2*b*c)))
   sin_corner = math.sin(math.radians(corner_between_sides))
   square_of_triangle=0.5*c*b*sin_corner
