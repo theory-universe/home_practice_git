@@ -29,7 +29,7 @@ else:
 ```python
 print('Периметр треугольника: ', a+b+c)  
 ```
-4. Как и с основной веткой данный скрипт был доавбелн на удалённый репозиторий с коммитом:  
+4. Как и с основной веткой данный скрипт был добавлен на удалённый репозиторий с коммитом:  
 ```bush
 git add calculating_the_triangle/calculating_the_triangle_perimeter.py  
 git commit -m "Add file .py 'Calculation the triangle's perimeter'"  
